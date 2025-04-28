@@ -14,7 +14,7 @@ public class StartupBean {
         DefaultApi defaultApi = new DefaultApi();
 
         GameInputDto gameInput = new GameInputDto();
-        gameInput.setGroupName("mazegameDiana");
+        gameInput.setGroupName("mazegame Diana");
 
         GameDto response = defaultApi.gamePost(gameInput);
 
